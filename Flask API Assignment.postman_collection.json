@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "10cc795a-dd86-401c-947e-a9a08911e8d6",
+		"name": "Flask API Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48249965",
+		"_collection_link": "https://mariam-gamal-aa8f1e1a-3656918.postman.co/workspace/Mariam's-Workspace~f3305411-79a3-40ed-8416-f932e478f11a/collection/48249965-10cc795a-dd86-401c-947e-a9a08911e8d6?action=share&source=collection_link&creator=48249965"
+	},
+	"item": [
+		{
+			"name": "get_categories",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get_products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/products?categoryID=3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "categoryID",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "edit_product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "delete_product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
